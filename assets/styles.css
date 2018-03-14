@@ -50,13 +50,97 @@ table {
 
 header {
   display: block;
-  background: #000;
-  height: 56px;
+  background: #fff;
+  height: 61px;
+  border-bottom: 6px solid #f6f6f6;
 }
 
 section {
   display: block;
-  background: #dc2c28;
-  height: 640px;
+  background: #FF0000;
   width: 774px;
+  height: 640px;
+  float: left;
+}
+
+aside {
+  display: block;
+  background: #A475AD;
+  height: 640px;
+  width: 474px;
+  float: right;
+  position: relative;
+}
+
+#main-video{
+  width: 772px;
+  height: 465px;
+  frameborder: 0;
+  margin-left: 2px;
+}
+
+#menu-button{
+  margin: 5px 0 0 14px;
+}
+
+#yt-logo{
+  margin: 5px 0 8.5px 20px; 
+}
+
+#search-bar{
+  top: -18px;
+  left: 44px;
+  display: inline-block;
+  position: relative; 
+  height: 26px;
+  width: 590px;
+  border-radius: 0;
+  border: 2px solid #ccc;
+}
+
+#search-button{
+  background-image: url(search-btn.png);
+  top: -18px;
+  left: 41px;
+  display: inline-block;
+  padding-right: 44px;
+  position: relative;
+  height: 32px;
+  border: 2px solid #ccc;
+}
+
+#upload-btn{
+  top: -5px;
+  left: 210px;
+  display: inline-block;
+  position: relative;
+  height: 31px;
+   
+}
+
+#grid-btn{
+  top: -7px;
+  left: 213px;
+  display: inline-block;
+  position: relative;
+  height: 31px;
+   
+}
+
+#bell-btn{
+  top: -7px;
+  left: 233px;
+  display: inline-block;
+  position: relative;
+  height: 31px;
+   
+}
+
+#avatar-btn{
+  top: -2px;
+  left: 260px;
+  display: inline-block;
+  position: relative;
+  height: 41px;
+   
 }
