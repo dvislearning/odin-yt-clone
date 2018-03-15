@@ -65,8 +65,6 @@ section {
 
 aside {
   display: block;
-  background: #A475AD;
-  height: 640px;
   width: 474px;
   float: right;
   position: relative;
@@ -109,31 +107,25 @@ aside {
   border: 2px solid #ccc;
 }
 
-#upload-btn{
-  top: -5px;
-  left: 210px;
+.header-btn{
   display: inline-block;
   position: relative;
   height: 31px;
-   
+}
+
+#upload-btn{
+  top: -5px;
+  left: 210px;
 }
 
 #grid-btn{
   top: -7px;
   left: 213px;
-  display: inline-block;
-  position: relative;
-  height: 31px;
-   
 }
 
 #bell-btn{
   top: -7px;
   left: 233px;
-  display: inline-block;
-  position: relative;
-  height: 31px;
-   
 }
 
 #avatar-btn{
@@ -142,5 +134,54 @@ aside {
   display: inline-block;
   position: relative;
   height: 41px;
-   
+}
+
+#autoplay-top-header{
+  font-size: 1.7rem;
+  height: 27px;
+  padding-top: 4px;
+  font-weight: 400;
+}
+
+#autoplay-btn{
+  top: -4px;
+  right: 93px;
+  float: right;
+  display: inline-block;
+  position: relative;
+  height: 26px;
+}
+
+.next-vid-container{
+  color: #1f1118;
+  height: 120px;
+}
+
+.next-vid-thumb {
+  display: inline-block;
+  position: relative;
+  top: 23px;
+  height: 102px;
+}
+
+.next-vid-text {
+  top: -15px;
+  right: -4px;
+  font-family: Roboto, arial, sans-serif;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;  
+}
+
+.next-vid-link{
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.next-vid-link-info {
+  display: block;
+  padding-top: 5px;
+  color: #767;
+  font-size: 14px;   
 }
