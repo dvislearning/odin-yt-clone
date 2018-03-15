@@ -68,6 +68,7 @@ aside {
   width: 474px;
   float: right;
   position: relative;
+  padding-bottom: 20px;
 }
 
 #main-video{
@@ -155,6 +156,11 @@ aside {
 .next-vid-container{
   color: #1f1118;
   height: 120px;
+}
+
+#up-next-vid {
+  border-bottom: 6px solid #f6f6f6;
+  padding-bottom: 13px;
 }
 
 .next-vid-thumb {
