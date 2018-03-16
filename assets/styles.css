@@ -48,6 +48,13 @@ table {
   border-spacing: 0;
 }
 
+/* begin page css */
+
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
 header {
   display: block;
   background: #fff;
@@ -57,24 +64,24 @@ header {
 
 section {
   display: block;
-  background: #FF0000;
-  width: 774px;
-  height: 640px;
+  background: #fff;
+  width: 810px;
+  height: 645px;
   float: left;
 }
 
 aside {
   display: block;
-  width: 474px;
+  background: #fff;
+  width: 460px;
   float: right;
   position: relative;
   padding-bottom: 20px;
 }
 
 #main-video{
-  width: 772px;
-  height: 465px;
-  frameborder: 0;
+  width: 800px;
+  height: 494px;
   margin-left: 2px;
 }
 
@@ -146,7 +153,7 @@ aside {
 
 #autoplay-btn{
   top: -4px;
-  right: 93px;
+  right: 20px;
   float: right;
   display: inline-block;
   position: relative;
@@ -154,7 +161,6 @@ aside {
 }
 
 .next-vid-container{
-  color: #1f1118;
   height: 120px;
 }
 
@@ -190,4 +196,96 @@ aside {
   padding-top: 5px;
   color: #767;
   font-size: 14px;   
+}
+
+#vid-stats {
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  height: 85px;
+  width: 100%;
+  border-bottom: 2px solid #f6f6f6;
+}
+
+#vid-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+#vid-views {
+  color: #717171;
+  font-size: 1.8rem;
+}
+
+#vid-btns {
+  display: inline-block;
+  position: relative;
+  top: -15px;
+  letter-spacing: 18px;
+  float: right;
+}
+
+.likes-stats-nums {
+  position: relative;
+  top: -13px;
+  color: #717171;
+  font-size: 1.2rem;
+  font-weight: 300; 
+  letter-spacing: 0; 
+}
+
+#likes-ratio {
+  position: relative;
+  top: 13px;
+  left: 70px;
+  float: right; 
+}
+
+#vid-meta {
+  padding-top: 20px;
+  position: relative;
+  display: block;
+  height: 150px;
+  width: 100%;
+}
+
+#uploader-avatar {
+  position: relative;
+  top: 15px;
+  left: 5px;
+}
+
+#uploader-name {
+  position: relative;
+  top: -15px;
+  left: 15px;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-height: 2rem;
+}
+
+#vid-publish-date {
+  position: relative;
+  display: inline-block;
+  right: 102px;
+  color: #717171;
+}
+
+#subscribe-btn {
+  position: relative;
+  float: right;
+  top: 25px;
+  right: 2px;
+}
+
+#vid-description {
+  position: relative;
+  top: 35px;
+  left: 66px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.1rem;
 }

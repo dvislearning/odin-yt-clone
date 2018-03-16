@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html invert style="font-size: 10px;font-family: Roboto, Arial, sans-serif; background-color: #fafafa;">
+<html invert style="font-size: 10px;font-family: Roboto, Arial, sans-serif; background-color: #fff;">
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="assets/styles.css">
 		<title>Lucy's Famous Chocolate Scene - YouTube</title>
 	</head>
 	<body>
+
+		<!-- YouTube header and buttons -->
+
 		<header id="masthead">
 			<a href=""><img id="menu-button" src="assets/menu-button.png" alt="menu button"></a>
 			<a href=""><img id="yt-logo" src="assets/yt-logo.png" alt="youtube logo"></a>
@@ -14,11 +17,47 @@
 			<a href=""><img id="upload-btn" class="header-btn" src="assets/upload-btn.png" alt="upload a new video"></a>
 			<a href=""><img id="grid-btn" class="header-btn" src="assets/grid.png" alt="YouTube Apps"></a>	
 			<a href=""><img id="bell-btn" class="header-btn" src="assets/g-bell.png" alt="Notifications"></a>	
-			<a href=""><img id="avatar-btn" src="assets/avatar.png" alt="Your Avatar"></a>			
+			<a href=""><img id="avatar-btn" src="assets/avatar.png" alt="Your Avatar"></a>
 		</header>
+
+		<!-- Section with main video -->
+
 		<section id="vid-section">
 			<iframe id="main-video" src="https://www.youtube.com/embed/8NPzLBSBzPI" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+			<div id="vid-stats">
+				<div id="title-views" >
+					<div id="vid-title">Lucy's Famous Chocolate Scene</div><br>
+					<div id="vid-views">2,675,308 views</div>
+				</div>
+
+				<div id="vid-btns">
+					<a href=""><img id="thumbs-up-btn" src="assets/thumbs-up-btn.png" alt="like this video"><span class="likes-stats-nums"><b>9.3 K</b></span></a>
+					<a href=""><img id="thumbs-down-btn" src="assets/thumbs-down-btn.png" alt="dislike this video"><span class="likes-stats-nums"><b>250</b></span></a>
+					<a href=""><img id="share-btn" src="assets/share-btn.png" alt="share this video"></a>
+					<a href=""><img id="add-to-btn" src="assets/add-to-btn.png" alt="add to this Video"></a>
+					<a href=""><img id="more-btn" src="assets/more-btn.png" alt="more about this video"></a>															
+				</div>
+
+				<div id="likes-ratio">
+					<img id="likes-ratio" src="assets/likes-ratio.png" alt="ratio of likes to dislikes">
+				</div>					
+			</div>
+
+			<div id="vid-meta">
+				<a href="https://www.youtube.com/user/History104WWU"><img id="uploader-avatar" src="assets/uploader-avatar.png" alt="History104WWU's avatar"></a>
+				<a id = "uploader-name" href="https://www.youtube.com/user/History104WWU">History104WWU</a>
+				<div id="vid-publish-date">
+					Published on May 19, 2010
+				</div>
+				<a href=""><img id="subscribe-btn" src="assets/subscribe-btn.png" alt="subscribe to History104WWU's channel"></a>
+				<div id="vid-description">
+					Here is the famous Chocolate scene from I Love Lucy, an illustrious tv series in the 1950's.
+				</div>							
+			</div>
 		</section>
+
+		<!-- Section with "Upcoming Videos" Thumbnails -->
 
 		<aside id="watch-next">
 			<div id="autoplay-top-header">Up Next<img id="autoplay-btn" src="assets/autoplay.png" alt="autoplay button"></div>
@@ -58,7 +97,7 @@
 			<a href="https://www.youtube.com/watch?v=8NPzLBSBzPI&list=PLm7xGvzHa--sUVwHpdR0Ae2NE4kzXR8-1"><div class="next-vid-container">
 				<img class="next-vid-thumb" src="assets/next-vid-5.png" alt="I LOVE LUCY - SEASON 1, 2, 3, 4, 5, 6 - FULL EPISODES xyz">
 				<div class="next-vid-text">
-					<span class="next-vid-link">I LOVE LUCY - SEASON 1, 2, 3, 4, 5, 6<br> - FULL EPISODES xyz </span>
+					<span class="next-vid-link">I LOVE LUCY - <br>SEASON 1, 2, 3, 4, 5, 6<br> - FULL EPISODES xyz </span>
 					<span class="next-vid-link-info">Hardin Kaylin</span>
 				</div>	
 			</div></a>
@@ -103,7 +142,6 @@
 					<span class="next-vid-link-info">James Donald<br>1.9M Views</span>
 				</div>	
 			</div></a>									
-
 		</aside>				
 	</body>
 </html>
