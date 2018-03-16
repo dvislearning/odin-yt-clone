@@ -11,9 +11,10 @@ The project attempts to deplicate how a watch page appears as of March 15, 2018.
 page may change in the future due to redesign by the YouTube team. 
 
 Featuring the iconic scene "chocolate factory" from I Love Lucy!
+
 [Original Video](https://www.youtube.com/watch?v=8NPzLBSBzPI)
 
-[Repository Link]()
-[View on the Web]()
+
+[View on the Web](http://htmlpreview.github.io/?https://github.com/dvislearning/odin-yt-clone/blob/master/home.html)
 
 
